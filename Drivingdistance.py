@@ -1,0 +1,5 @@
+driving_distance =float(input("Enter the driving distance: "))
+miles_per_gallon =float(input("Enter miles per gallon: "))
+price_per_gallon =float(input("Enter price per gallon: "))
+cost_of_driving = float(driving_distance*miles_per_gallon/price_per_gallon)
+print(cost_of_driving)
